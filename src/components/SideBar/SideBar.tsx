@@ -1,7 +1,5 @@
 const SideBar = () => {
-  return (
-    <div className="fixed top-0 left-0 w-72 h-screen bg-gray-600">SideBar</div>
-  );
+  return <div className="w-2/5  bg-gray-75 text-white">SideBar</div>;
 };
 
 export default SideBar;
