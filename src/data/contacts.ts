@@ -8,6 +8,7 @@ export type ContactsType = {
   message: string;
   numberOfMessage: number;
   statusMessage: string;
+  isActive?: boolean;
 };
 
 export const contacts: ContactsType[] = [
@@ -55,6 +56,7 @@ export const contacts: ContactsType[] = [
       'duis amet reprehenderit commodo voluptate anim ipsum culpa esse consequat',
     numberOfMessage: 0,
     statusMessage: 'received',
+    isActive: true,
   },
   {
     _id: '64f0140295655cc8dc2e2052',
