@@ -4,7 +4,7 @@ import SearchInput from '../SearchInput/SearchInput';
 
 const SideBar = () => {
   return (
-    <div className="w-2/5  bg-gray-75 text-white relative flex flex-col">
+    <div className="w-[30%]  bg-gray-75 text-white relative flex flex-col">
       <Navbar />
       <SearchInput />
       <Chats />

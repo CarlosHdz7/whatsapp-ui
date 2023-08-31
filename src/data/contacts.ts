@@ -1,4 +1,4 @@
-type ContactsType = {
+export type ContactsType = {
   _id: string;
   index: number;
   name: string;
@@ -18,9 +18,8 @@ export const contacts: ContactsType[] = [
     status: 'Online',
     picture: 'http://placehold.it/32x32',
     lastConexion: '12:06 P.M',
-    message:
-      'nostrud ullamco cupidatat tempor nisi consequat laborum sit nisi exercitation',
-    numberOfMessage: 3,
+    message: 'nostrud ullamco cupidatat?',
+    numberOfMessage: 0,
     statusMessage: 'received',
   },
   {
@@ -30,8 +29,7 @@ export const contacts: ContactsType[] = [
     status: 'undefined',
     picture: 'http://placehold.it/32x32',
     lastConexion: '03:28 A.M',
-    message:
-      'officia reprehenderit sunt elit proident pariatur occaecat sit in enim',
+    message: 'officia',
     numberOfMessage: 3,
     statusMessage: 'sent',
   },
@@ -42,7 +40,7 @@ export const contacts: ContactsType[] = [
     status: 'undefined',
     picture: 'http://placehold.it/32x32',
     lastConexion: '01:15 A.M',
-    message: 'laborum laborum veniam ullamco consectetur mollit ea do eu et',
+    message: 'laborum laborum veniam ullamco',
     numberOfMessage: 2,
     statusMessage: 'received',
   },
@@ -55,7 +53,7 @@ export const contacts: ContactsType[] = [
     lastConexion: '07:28 A.M',
     message:
       'duis amet reprehenderit commodo voluptate anim ipsum culpa esse consequat',
-    numberOfMessage: 7,
+    numberOfMessage: 0,
     statusMessage: 'received',
   },
   {
@@ -65,8 +63,7 @@ export const contacts: ContactsType[] = [
     status: 'undefined',
     picture: 'http://placehold.it/32x32',
     lastConexion: '05:05 P.M',
-    message:
-      'cillum ea ea cupidatat culpa consequat adipisicing adipisicing pariatur veniam',
+    message: 'cillum ea ea cupidatat',
     numberOfMessage: 3,
     statusMessage: 'sent',
   },
@@ -77,8 +74,8 @@ export const contacts: ContactsType[] = [
     status: 'Online',
     picture: 'http://placehold.it/32x32',
     lastConexion: '10:35 A.M',
-    message: 'aliqua in qui do velit proident laborum sint ex aliquip',
-    numberOfMessage: 2,
+    message: 'aliqua in qui',
+    numberOfMessage: 0,
     statusMessage: 'received',
   },
   {
@@ -88,8 +85,8 @@ export const contacts: ContactsType[] = [
     status: 'Online',
     picture: 'http://placehold.it/32x32',
     lastConexion: '06:21 P.M',
-    message: 'officia dolor ea do amet enim irure sunt commodo ex',
-    numberOfMessage: 7,
+    message: 'officia dolor ea do',
+    numberOfMessage: 0,
     statusMessage: 'received',
   },
   {
