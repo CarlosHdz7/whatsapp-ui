@@ -31,7 +31,7 @@ export const contacts: ContactsType[] = [
     picture: 'http://placehold.it/32x32',
     lastConexion: '03:28 A.M',
     message: 'officia',
-    numberOfMessage: 3,
+    numberOfMessage: 2,
     statusMessage: 'sent',
   },
   {

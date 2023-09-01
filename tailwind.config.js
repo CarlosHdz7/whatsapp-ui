@@ -14,6 +14,9 @@ export default {
           1: '#AEBAC1',
         },
       },
+      backgroundImage: {
+        chats: 'url(./public/wallpaper.jpg)',
+      },
     },
   },
   plugins: [],
