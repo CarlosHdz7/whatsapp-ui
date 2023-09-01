@@ -11,7 +11,7 @@ const SecondaryNavbar = () => {
         <div className="flex items-center justify-center w-16 ">
           <div className="rounded-3xl bg-gray-1 h-9 w-9" />
         </div>
-        <div className="text-[10px]">
+        <div className="text-[10px] flex flex-col justify-center">
           <span>Ada</span>
           <p className="text-gray-1">
             haz clic aquí para información de contacto
