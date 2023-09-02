@@ -6,7 +6,7 @@ import {
 
 const SecondaryNavbar = () => {
   return (
-    <div className="w-full h-14 bg-gray-50 p-2 flex justify-between items-center shadow-md">
+    <div className="fixed w-full h-14 bg-gray-50 p-2 flex justify-between items-center shadow-md z-50">
       <div className="flex h-auto">
         <div className="flex items-center justify-center w-16 ">
           <div className="rounded-3xl bg-gray-1 h-9 w-9" />
