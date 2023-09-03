@@ -8,13 +8,13 @@ const MainContent = () => {
       <SecondaryNavbar />
       <MessagesContainer>
         <Message />
+        <Message position='right' text="Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet" />
+        <Message />
+        <Message />
+        <Message position='right' text="Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet" />
+        <Message />
         <Message position='right' />
-        <Message />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message position='right' />
-        <Message />
+        <Message text="Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet" />
         <Message />
         <Message position='right' />
         <Message />

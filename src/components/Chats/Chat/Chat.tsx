@@ -1,12 +1,15 @@
 import { ContactsType } from '../../../data/contacts';
 
-const Chat = ({
-  name,
-  message,
-  lastConexion,
-  numberOfMessage,
-  isActive = false,
-}: Partial<ContactsType>) => {
+const Chat = (props: Partial<ContactsType>) => {
+
+  const {
+    name,
+    message,
+    lastConexion,
+    numberOfMessage,
+    isActive = false,
+  } = props;
+
   const isPending = numberOfMessage && numberOfMessage > 0;
 
   const containerClass = isActive
