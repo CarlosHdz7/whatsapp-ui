@@ -1,4 +1,5 @@
 import { ContactsType } from '../../../data/contacts';
+import { BsFillPersonFill } from 'react-icons/bs'
 
 const Chat = (props: Partial<ContactsType>) => {
 
@@ -29,7 +30,9 @@ const Chat = (props: Partial<ContactsType>) => {
   return (
     <div className={containerClass}>
       <div className="flex items-center justify-center p-2 w-16 ">
-        <div className="rounded-3xl bg-gray-1 h-10 w-10" />
+        <div className="rounded-3xl bg-gray-1 h-10 w-10 flex justify-center items-center">
+          <BsFillPersonFill size={25} />
+        </div>
       </div>
       <div className="flex flex-col justify-center w-[200px] border-b-[1px] border-gray-25">
         <span className={nameClass}>{name}</span>

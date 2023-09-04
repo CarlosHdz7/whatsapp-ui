@@ -2,6 +2,7 @@ import {
   BsFillPeopleFill,
   BsFillChatLeftTextFill,
   BsThreeDotsVertical,
+  BsFillPersonFill
 } from 'react-icons/bs';
 import { FaHistory } from 'react-icons/fa';
 
@@ -9,7 +10,9 @@ const Navbar = () => {
   return (
     <nav className="h-14 w-full bg-gray-50 p-3 flex justify-between">
       <div className="flex justify-center items-center">
-        <div className="rounded-3xl bg-gray-1 h-8 w-8" />
+        <div className="rounded-3xl bg-gray-1 h-8 w-8 flex items-center justify-center">
+          <BsFillPersonFill size={20} />
+        </div>
       </div>
       <div className="flex items-center gap-8">
         <BsFillPeopleFill size={20} />
