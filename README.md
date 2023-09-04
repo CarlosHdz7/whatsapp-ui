@@ -8,3 +8,7 @@
 
 ![Colors](./colors.PNG)
 
+### Dark theme
+
+![Dark Theme](./dark-mode.PNG)
+
