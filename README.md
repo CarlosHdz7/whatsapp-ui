@@ -10,5 +10,5 @@
 
 ### Dark theme
 
-![Dark Theme](./dark-mode.PNG)
+![Dark Theme](./dark-theme.PNG)
 
