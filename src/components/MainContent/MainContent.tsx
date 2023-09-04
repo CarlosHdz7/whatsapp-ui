@@ -1,3 +1,4 @@
+import { MessageType, messages } from '../../data/messages';
 import InputMessageBar from './InputMessageBar/InputMessageBar';
 import Message from './MessagesContainer/Message/Message';
 import MessagesContainer from './MessagesContainer/MessagesContainer';
@@ -8,51 +9,9 @@ const MainContent = () => {
     <div className="bg-gray-25 w-full h-full text-white bg-chats bg-repeat bg-[length:500px_1000px] relative">
       <SecondaryNavbar />
       <MessagesContainer>
-        <Message />
-        <Message position='right' text="Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet" />
-        <Message />
-        <Message />
-        <Message position='right' text="Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet" />
-        <Message />
-        <Message position='right' />
-        <Message text="Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet" />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message position='right' />
-        <Message />
-        <Message />
-        <Message position='right' />
+        {messages.map(({ text, position }: MessageType) => (
+          <Message text={text} position={position} />
+        ))}
       </MessagesContainer>
       <InputMessageBar />
     </div>
