@@ -13,7 +13,7 @@ const Chat = (props: Partial<ContactsType>) => {
   const isPending = numberOfMessage && numberOfMessage > 0;
 
   const containerClass = isActive
-    ? 'flex w-full cursor-pointer bg-gray-25'
+    ? 'flex w-full cursor-pointer bg-gray-0'
     : 'flex w-full cursor-pointer';
 
   const lastConexionClass = isPending

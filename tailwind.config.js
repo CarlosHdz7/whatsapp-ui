@@ -13,6 +13,7 @@ export default {
           50: '#202C33',
           25: '#222E35',
           1: '#AEBAC1',
+          0: '#2A3942'
         },
       },
       backgroundImage: {
