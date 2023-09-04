@@ -4,3 +4,7 @@
 
 ![Mock](./mock.PNG)
 
+### Colors Palette
+
+![Colors](./colors.PNG)
+
