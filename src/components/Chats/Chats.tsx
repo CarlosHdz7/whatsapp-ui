@@ -6,6 +6,7 @@ const Chats = () => {
     <section className="flex  flex-col pt-3 overflow-y-scroll w-full">
       {contacts.map(
         ({
+          _id,
           name,
           message,
           lastConexion,
@@ -13,6 +14,7 @@ const Chats = () => {
           isActive,
         }: ContactsType) => (
           <Chat
+            key={_id}
             name={name}
             message={message}
             lastConexion={lastConexion}
